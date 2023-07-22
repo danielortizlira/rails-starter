@@ -2,7 +2,7 @@
 
 ## Dependencies
 
-If you want to locally run the app with Docker, Docker is all you need. We recommend docker-desktop for an easy Docker setup).
+If you want to locally run the app with Docker, Docker is all you need. We recommend docker-desktop for an easy Docker setup.
 
 If you want to setup things locally, make sure you have:
 

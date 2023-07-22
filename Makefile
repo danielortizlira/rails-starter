@@ -40,7 +40,6 @@ migrate:
 	docker compose run --rm api bash -c "bin/rails db:create db:migrate"
 
 
-
 down:
 	docker compose down
 
