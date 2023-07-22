@@ -21,7 +21,7 @@ services:
       - .:/home
     ports:
       - 5432:5432
-    environment:
+    env_file:
       - .env
 
 volumes:
