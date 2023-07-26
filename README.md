@@ -1,5 +1,7 @@
 # README
 
+Starter to run Ruby on Rails with PostgreSQL projects in Docker.
+
 # Dependencies
 
 If you want to locally run the app with Docker, Docker is all you need. We recommend docker-desktop for an easy Docker setup.
@@ -25,7 +27,8 @@ make down: Stops containers and removes containers created by up
 
 # Setup Instructions
 
-1. Create a `.env` file from `.env-example`.
+0. Download the code as zip.
+1. Create a `.env` file from `.env-example` in the root.
 2. Run `make shell` to open a bash shell in the Ruby container.
 3. Run `rails new . --database=postgresql --css=tailwind` to generate a new rails project.
 4. Run `bundle install`.
