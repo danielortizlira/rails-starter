@@ -32,7 +32,7 @@ make down: Stops containers and removes containers created by up
 2. Run `make shell` to open a bash shell in the Ruby container.
 3. Run `rails new . --database=postgresql --css=tailwind` to generate a new rails project.
 4. Run `bundle install`.
-5. Add this to your `database.yml` file in the "default" section:
+5. Setup the DB connection in your project's `database.yml` file under the "default" section:
 
 ```
 username: <%= ENV.fetch("POSTGRES_USER") { "postgres" } %>
@@ -42,8 +42,7 @@ host: <%= ENV.fetch("POSTGRES_HOST") { "postgres" } %>
 port: <%= ENV.fetch("POSTGRES_PORT") { "5432" } %>
 ```
 
-- Run `rake db:create`
-- Run `rails tailwindcss:install` (only if you want to use tailwindcss)
+- Run `rake db:create` to confirm that rails can reach the DB.
 
 # Optional setups
 
