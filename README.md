@@ -15,7 +15,7 @@ If you want to setup things locally, make sure you have:
 We added a Makefile to make working with Docker easier
 
 ```
-make build: Build docker images"
+make build: Build docker images
 make up: Run the app
 make upd: Run the app in the background
 make shell: Run shell in app's server
@@ -52,3 +52,13 @@ port: <%= ENV.fetch("POSTGRES_PORT") { "5432" } %>
 
 - add `--css=tailwind` to the setup instructions step 3. (`rails new . --database=postgresql --css=tailwind`).
 - Run `rails tailwindcss:install` after completing the seupt instructions.
+
+# Recommended gems
+
+## Development
+
+- Add `letter_opener_web` to preview emails on the browser.
+
+## Development and Test
+
+- Add `factory_bot_rails` to replace fixtures and use `faker` to build factories.
