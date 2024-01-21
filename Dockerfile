@@ -20,7 +20,8 @@ RUN apk add --no-cache --update build-base \
   yaml-dev \
   zlib-dev \
   curl-dev \
-  gnupg
+  gnupg \
+  less
 
 COPY Gemfile $APP_PATH
 COPY Gemfile.lock $APP_PATH
