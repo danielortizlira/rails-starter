@@ -27,7 +27,7 @@ make down: Stops containers and removes containers created by up
 
 # Setup Instructions
 
-0. Download the code as zip.
+0. Download the code as zip or create a repo using this one as the template.
 1. Create a `.env` file from `.env-example` in the root.
 2. Run `make shell` to open a bash shell in the Ruby container.
 3. Run `rails new . --database=postgresql --css=tailwind` to generate a new rails project.
