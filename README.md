@@ -8,7 +8,7 @@ If you want to locally run the app with Docker, Docker is all you need. We recom
 
 If you want to setup things locally, make sure you have:
 
-- ruby 3.1.1
+- ruby 3.3.0
 
 - postgres 15
 
